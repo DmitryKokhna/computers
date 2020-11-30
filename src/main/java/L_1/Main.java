@@ -25,7 +25,7 @@ public class Main{
              int b = firstNote.getCpu();
              System.out.println();
              System.out.println(a + "- МГц это твой запрашиваемый проц");
-             System.out.println(b + "- МГц это предлагаемый нами проц");
+             System.out.println(b + "- МГц это предлагаемый нами процессор");
 
          }
 
