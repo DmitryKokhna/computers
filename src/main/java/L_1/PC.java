@@ -3,7 +3,7 @@ package L_1;
 public class PC {
     private int cpu;
     private String model;
-
+    public static int w;
 
     PC(int cpu, String model) {
         this.cpu = cpu;

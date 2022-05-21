@@ -4,9 +4,11 @@ package L_1;
 import java.util.Scanner;
 
 public class Main{
-    public static void main(String[] args) {
+    public static int w;
+       public static void main(String[] args) {
+
         PC firstPC = new PC();
-        System.out.print("Введите частоту процессора:");
+          System.out.print("Введите частоту процессора:");
         Scanner sc=new Scanner(System.in);
          int z=sc.nextInt();
          if (z>3000) {
